@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     // -------------spin-------------------
     var buttons = document.querySelectorAll(".pinky_open");
-    var api = './assets/gogogo';
+    var api = './assets/taiwan';
     var d = new Date();
     var month = d.getMonth()+1;
     var day = d.getDate();
@@ -251,9 +251,9 @@ jQuery(document).ready(function($) {
                     }
                     $.loadScript('./assets/notify.js', function(){
                         Epage.init({
-                            offer_id: 'pennis-sg',
+                            offer_id: 'pennis-tw',
                             hint_phone: 'xxxxxxxxxx',
-                            hint_name: '姓名',
+                            hint_name: '葉自飄飄',
                             popup_time: 45000,
                             lang: 'th'
                         });
